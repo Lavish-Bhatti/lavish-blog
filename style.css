@@ -1,0 +1,142 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+li {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+  color: white;
+  padding: 12px;
+  border-radius: 50px;
+  font-size: larger;
+  transition: all 0.3s ease;
+}
+.link:hover {
+  background: linear-gradient(to right, #000080, #4169E1);
+  border-color: #4169E1;
+}
+nav {
+  display: flex;
+  justify-content: space-evenly;
+  height: 10vh;
+  align-items: center;
+  background: linear-gradient(to right, black, rgb(46, 45, 45));
+  color: white;
+  transition: 0.3s ease;
+}
+html {
+  scroll-behavior: smooth;
+}
+#home {
+  justify-items: center;
+  align-content: center;
+  height: 30vh;
+}
+.aboutme {
+  align-items: center;
+  height: 40vh;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: justify;
+  justify-items: center;
+}
+#Articles {
+  align-items: center;
+  height: 25vh;
+  justify-items:center;
+}
+h1 {
+  border: 2px solid #d3d3d3;
+  padding: 10px;
+  border-radius: 50px;
+  background-color: #d3d3d3;
+}
+#projects {
+  align-items: center;
+  height: 30vh;
+  justify-items: center;
+  margin: 30px;
+}
+.nav-project {
+  display: flex;
+  gap: 300px;
+}
+#skills {
+  align-items: center;
+  height: 30vh;
+  justify-items: center;
+}
+
+.skills-container {
+  display: flex;                  /* puts items in a row */
+  justify-content: center;       /* centers row horizontally */
+  gap: 1rem;                     /* space between skill boxes */
+  flex-wrap: wrap;               /* wraps to next line on small screens */
+  margin-top: 1rem;              /* space below the heading */
+}
+.skill {
+  transition:  0.3s ease;
+  padding: .5rem 1rem;
+  background: #eee;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.skill:hover {
+  box-shadow: 0 0 0.5px 1.5px lightskyblue;
+}
+.nav-skill {
+  align-items: center;
+  width: fit-content;
+}
+#cont {
+  background: linear-gradient(to right, black, grey);
+  height: 50vh;
+  justify-items: center;
+}
+.contact-form {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+.contact-form input {
+  border-color: #d3d3d3;
+  outline: none;
+  width: 700px;
+  height: 35px;
+  gap: 20px;
+  border-radius: 5px;
+  column-gap: 20px;
+  color: black;
+  background-color: #d3d3d3;
+  transition: 0.3s ease;
+}
+.contact-form input:focus {
+  border: 0.5px solid lightskyblue;
+   box-shadow: 0 0 0.5px 1.5px lightskyblue;
+}
+.contact-form textarea {
+  border-color: #d3d3d3;
+  outline: none;
+  border-radius: 5px;
+  background-color: #d3d3d3;
+}
+.contact-form textarea:focus {
+  border: 0.5px solid lightskyblue;
+   box-shadow: 0 0 0.5px 1.5px lightskyblue;
+}
+.contact-form button {
+  height: 30px;
+  border-color: #d3d3d3;
+  outline: none;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+  background-color: #d3d3d3;
+}
+.contact-form button:hover {
+  background-color: rgb(35, 241, 35);
+}
+
